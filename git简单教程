@@ -1,0 +1,7 @@
+# 安装
+windows下安装，官网下载地址：https://git-scm.com/download/win。然后直接傻瓜式安装。  
+linux下安装，根据不同的系统选择sudo apt-get install git 或者 sudo yum install git
+# 配置git
+当安装完Git应该做的第一件事就是设置用户名称与邮件地址。这样做很重要，因为每一个Git的提交都会使用这些信息，并且它会写入到你的每一次提交中，不可更改。  
+git config --global user.name "xiaoming"  
+git config --global user.email xiaoming123@gmail.com  
